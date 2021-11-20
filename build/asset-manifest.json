@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/boocrewnftminter/static/css/main.6558ee3b.chunk.css",
-    "main.js": "/boocrewnftminter/static/js/main.ce5c9159.chunk.js",
-    "main.js.map": "/boocrewnftminter/static/js/main.ce5c9159.chunk.js.map",
-    "runtime-main.js": "/boocrewnftminter/static/js/runtime-main.1842cdca.js",
-    "runtime-main.js.map": "/boocrewnftminter/static/js/runtime-main.1842cdca.js.map",
-    "static/js/2.acc65b02.chunk.js": "/boocrewnftminter/static/js/2.acc65b02.chunk.js",
-    "static/js/2.acc65b02.chunk.js.map": "/boocrewnftminter/static/js/2.acc65b02.chunk.js.map",
-    "static/js/3.543a4054.chunk.js": "/boocrewnftminter/static/js/3.543a4054.chunk.js",
-    "static/js/3.543a4054.chunk.js.map": "/boocrewnftminter/static/js/3.543a4054.chunk.js.map",
-    "index.html": "/boocrewnftminter/index.html",
-    "static/css/main.6558ee3b.chunk.css.map": "/boocrewnftminter/static/css/main.6558ee3b.chunk.css.map",
-    "static/js/2.acc65b02.chunk.js.LICENSE.txt": "/boocrewnftminter/static/js/2.acc65b02.chunk.js.LICENSE.txt",
-    "static/media/reset.css": "/boocrewnftminter/static/media/NanumPenScript-Regular.9dbef110.ttf",
-    "static/media/hidden.c34f19c6.gif": "/boocrewnftminter/static/media/hidden.c34f19c6.gif",
-    "static/media/logo.dabf7636.png": "/boocrewnftminter/static/media/logo.dabf7636.png"
+    "main.css": "/static/css/main.c4216930.chunk.css",
+    "main.js": "/static/js/main.b65ae587.chunk.js",
+    "main.js.map": "/static/js/main.b65ae587.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.40a1f7f3.js",
+    "runtime-main.js.map": "/static/js/runtime-main.40a1f7f3.js.map",
+    "static/js/2.ca75af13.chunk.js": "/static/js/2.ca75af13.chunk.js",
+    "static/js/2.ca75af13.chunk.js.map": "/static/js/2.ca75af13.chunk.js.map",
+    "static/js/3.1f032b28.chunk.js": "/static/js/3.1f032b28.chunk.js",
+    "static/js/3.1f032b28.chunk.js.map": "/static/js/3.1f032b28.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.c4216930.chunk.css.map": "/static/css/main.c4216930.chunk.css.map",
+    "static/js/2.ca75af13.chunk.js.LICENSE.txt": "/static/js/2.ca75af13.chunk.js.LICENSE.txt",
+    "static/media/reset.css": "/static/media/Poppins-Bold.404e299b.ttf",
+    "static/media/kr3.56b228b8.png": "/static/media/kr3.56b228b8.png",
+    "static/media/logo.fe58751f.png": "/static/media/logo.fe58751f.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.1842cdca.js",
-    "static/js/2.acc65b02.chunk.js",
-    "static/css/main.6558ee3b.chunk.css",
-    "static/js/main.ce5c9159.chunk.js"
+    "static/js/runtime-main.40a1f7f3.js",
+    "static/js/2.ca75af13.chunk.js",
+    "static/css/main.c4216930.chunk.css",
+    "static/js/main.b65ae587.chunk.js"
   ]
 }

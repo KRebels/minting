@@ -20,13 +20,18 @@ export const StyledButton = styled.button`
   font-size: 40px;
   color: #000000;
   cursor: pointer;
-  box-shadow: 0px 6px 0px -2px rgba(250, 250, 250, 0.3);
-  -webkit-box-shadow: 0px 6px 0px -2px rgba(250, 250, 250, 0.3);
-  -moz-box-shadow: 0px 6px 0px -2px rgba(250, 250, 250, 0.3);
+  // box-shadow: 0px 6px 0px -2px rgba(250, 250, 250, 0.3);
+  // -webkit-box-shadow: 0px 6px 0px -2px rgba(250, 250, 250, 0.3);
+  // -moz-box-shadow: 0px 6px 0px -2px rgba(250, 250, 250, 0.3);
   :active {
     box-shadow: none;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
+  }
+  :hover {
+    transition-duration: .4s;
+    color: white;
+    background-color: black;
   }
 `;
 
@@ -115,7 +120,7 @@ function App() {
             borderRadius: 50, textAlign: "center", justifySelf: "center", justifyContent: "center"
           }}
         >
-          <a href="https://krebels.io/"><StyledImg alt={"KRebels Logo"}
+          <a href="https://krebels.io/"><StyledImg className="logoShadow" alt={"KRebels Logo"}
             src={newbanner}
             style={{ width: 70, height: 70, textAlign: "center" }}></StyledImg></a>
         </s.TextTitle>
@@ -199,7 +204,7 @@ function App() {
                   {blockchain.account === "" ||
                     blockchain.smartContract === null ? (
                     <s.Container ai={"center"} jc={"center"}>
-                      <s.TextDescription style={{ textAlign: "center", fontSize: 80, marginBottom: 0 }}>
+                      <s.TextDescription className="connectMint">
                         Connect to Mint
                       </s.TextDescription>
                       <s.SpacerSmall />

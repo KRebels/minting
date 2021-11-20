@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/mint/static/css/main.317214bb.chunk.css",
-    "main.js": "/mint/static/js/main.b65ae587.chunk.js",
-    "main.js.map": "/mint/static/js/main.b65ae587.chunk.js.map",
+    "main.css": "/mint/static/css/main.381e122b.chunk.css",
+    "main.js": "/mint/static/js/main.6ad57b19.chunk.js",
+    "main.js.map": "/mint/static/js/main.6ad57b19.chunk.js.map",
     "runtime-main.js": "/mint/static/js/runtime-main.7fd62655.js",
     "runtime-main.js.map": "/mint/static/js/runtime-main.7fd62655.js.map",
     "static/js/2.224da388.chunk.js": "/mint/static/js/2.224da388.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.1f032b28.chunk.js": "/mint/static/js/3.1f032b28.chunk.js",
     "static/js/3.1f032b28.chunk.js.map": "/mint/static/js/3.1f032b28.chunk.js.map",
     "index.html": "/mint/index.html",
-    "static/css/main.317214bb.chunk.css.map": "/mint/static/css/main.317214bb.chunk.css.map",
+    "static/css/main.381e122b.chunk.css.map": "/mint/static/css/main.381e122b.chunk.css.map",
     "static/js/2.224da388.chunk.js.LICENSE.txt": "/mint/static/js/2.224da388.chunk.js.LICENSE.txt",
     "static/media/reset.css": "/mint/static/media/Poppins-Bold.404e299b.ttf",
     "static/media/kr3.56b228b8.png": "/mint/static/media/kr3.56b228b8.png",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.7fd62655.js",
     "static/js/2.224da388.chunk.js",
-    "static/css/main.317214bb.chunk.css",
-    "static/js/main.b65ae587.chunk.js"
+    "static/css/main.381e122b.chunk.css",
+    "static/js/main.6ad57b19.chunk.js"
   ]
 }

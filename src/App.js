@@ -204,7 +204,7 @@ function App() {
                   {blockchain.account === "" ||
                     blockchain.smartContract === null ? (
                     <s.Container ai={"center"} jc={"center"}>
-                      <s.TextDescription className="connectMint">
+                      <s.TextDescription className="connectMint" style={{fontSize: 60, textAlign: "center", marginBottom: 0}}>
                         Connect to Mint
                       </s.TextDescription>
                       <s.SpacerSmall />

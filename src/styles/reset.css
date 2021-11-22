@@ -103,7 +103,6 @@ section {
 }
 body {
   line-height: 1;
-  overflow-x: hidden;
 }
 ol,
 ul {
@@ -165,6 +164,7 @@ body {
 
 html {
   background-color: "#4C4C4C";
+  overflow-x: hidden;
 }
 
 div {

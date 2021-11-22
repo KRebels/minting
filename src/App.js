@@ -282,7 +282,7 @@ function App() {
         <s.Container jc={"center"} ai={"center"} style={{ width: "70%" }}>
           <s.TextDescription style={{ textAlign: "center", fontSize: 40 }}>
             <a
-              href="https://rinkeby.etherscan.io/address/0x70f164AEE5Da40cF7c6740D0810061578CCBdB3D"
+              href="https://krebels.io"
               style={{
                 textDecoration: "none",
                 color: "black",

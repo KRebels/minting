@@ -82,9 +82,9 @@ function App() {
       // ********
       .send({
         gasLimit: 285000 * _amount,
-        to: "0x70f164AEE5Da40cF7c6740D0810061578CCBdB3D", // the address of your contract
+        to: "0x2bb9F447386e1f27483F992439a547799CbB8526", // the address of your contract
         from: blockchain.account,
-        value: blockchain.web3.utils.toWei((0.01 * _amount).toString(), "ether"),
+        value: blockchain.web3.utils.toWei((0.0 * _amount).toString(), "ether"),
       })
       .once("error", (err) => {
         console.log(err);
@@ -135,7 +135,7 @@ function App() {
                 borderStyle: "solid",
                 borderColor: "black",
               }}>
-              0.01 ETH + Gas
+              0.01 ETH + Gas 
             </s.TextTitle>
             <StyledImg className="object" alt={"KRebel"} src={i1} style={{
               paddingTop: 0, borderStyle: "solid", borderColor: "black", borderWidth: 0,
@@ -152,7 +152,7 @@ function App() {
                 marginBottom: 0
               }}
             >
-              {blockchain.account == null ? "????" : (data.totalSupply)}/9999
+              {blockchain.account == null ? "????" : (data.totalSupply)}/9,999
             </s.TextTitle>
             {/* <s.SpacerMedium/> */}
             <s.Container
@@ -211,13 +211,13 @@ function App() {
                       <StyledButton
                         style={{ fontFamily: "coder" }}
                         onClick={(e) => {
-                          // e.preventDefault();
-                          // dispatch(connect());
-                          // getData();
+                          e.preventDefault();
+                          dispatch(connect());
+                          getData();
                           // UNCOMMENT THESE WHEN YOU ARE READY TO LAUNCH.
                         }}
                       >
-                        Coming Soon
+                        CONNECT
                       </StyledButton>
                       <s.SpacerLarge />
                       {/* <s.TextDescription style={{textAlign: "center", fontSize: 30, marginBottom: 0, paddingBottom: 0}}>

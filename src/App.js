@@ -211,13 +211,13 @@ function App() {
                       <StyledButton
                         style={{ fontFamily: "coder" }}
                         onClick={(e) => {
-                          e.preventDefault();
-                          dispatch(connect());
-                          getData();
+                          // e.preventDefault();
+                          // dispatch(connect());
+                          // getData();
                           // UNCOMMENT THESE WHEN YOU ARE READY TO LAUNCH.
                         }}
                       >
-                        CONNECT
+                        COMING SOON
                       </StyledButton>
                       <s.SpacerLarge />
                       {/* <s.TextDescription style={{textAlign: "center", fontSize: 30, marginBottom: 0, paddingBottom: 0}}>
@@ -242,7 +242,7 @@ function App() {
                           min="1"
                           max="5"
                           style={{
-                            fontSize: 60,
+                            fontSize: 40,
                             textAlign: "center",
                             backgroundColor: "white",
                             borderWidth: 4,
@@ -254,6 +254,7 @@ function App() {
                             // paddingLeft: 0,
                             // marginLeft: 0,
                             width: 100,
+                            height: 60,
                             fontFamily: "coder",
                           }}
                         /> KRebels

@@ -214,7 +214,7 @@ function App() {
                           e.preventDefault();
                           dispatch(connect());
                           getData();
-                          UNCOMMENT THESE WHEN YOU ARE READY TO LAUNCH.
+                          // UNCOMMENT THESE WHEN YOU ARE READY TO LAUNCH.
                         }}
                       >
                         CONNECT

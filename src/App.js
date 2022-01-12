@@ -84,7 +84,7 @@ function App() {
         gasLimit: 285000 * _amount,
         to: "0x5f96FdF27fB8D38d317BA94f642f6BE39080c71E", // the address of your contract
         from: blockchain.account,
-        value: blockchain.web3.utils.toWei((0.1 * _amount).toString(), "ether"),
+        value: blockchain.web3.utils.toWei((0.05 * _amount).toString(), "ether"),
       })
       .once("error", (err) => {
         console.log(err);
@@ -153,7 +153,7 @@ function App() {
                 marginBottom: 0
               }}
             >
-              {blockchain.account == null ? "????" : (data.totalSupply)}/9,999
+              {blockchain.account == null ? "????" : (data.totalSupply)}/499
             </s.TextTitle>
             {/* <s.SpacerMedium/> */}
             <s.Container

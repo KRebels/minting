@@ -84,7 +84,7 @@ function App() {
         gasLimit: 285000 * _amount,
         to: "0x82DD84b15EeC8a07084742dc7247Ba7238189024", // the address of your contract
         from: blockchain.account,
-        value: blockchain.web3.utils.toWei((0.05 * _amount).toString(), "ether"),
+        value: blockchain.web3.utils.toWei((0.1 * _amount).toString(), "ether"),
       })
       .once("error", (err) => {
         console.log(err);

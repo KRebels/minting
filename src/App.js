@@ -82,7 +82,7 @@ function App() {
       // ********
       .send({
         gasLimit: 285000 * _amount,
-        to: "0x82DD84b15EeC8a07084742dc7247Ba7238189024", // the address of your contract
+        to: "0x5f96FdF27fB8D38d317BA94f642f6BE39080c71E", // the address of your contract
         from: blockchain.account,
         value: blockchain.web3.utils.toWei((0.1 * _amount).toString(), "ether"),
       })
@@ -135,7 +135,8 @@ function App() {
                 borderStyle: "solid",
                 borderColor: "black",
               }}>
-              0.01 ETH + Gas 
+              0.05 ETH + Gas <br/>
+              Stage 1 Minting Now!
             </s.TextTitle>
             <StyledImg className="object" alt={"KRebel"} src={i1} style={{
               paddingTop: 0, borderStyle: "solid", borderColor: "black", borderWidth: 0,
@@ -283,7 +284,7 @@ function App() {
         <s.Container jc={"center"} ai={"center"} style={{ width: "70%" }}>
           <s.TextDescription style={{ textAlign: "center", fontSize: 40 }}>
             <a
-              href="https://krebels.io"
+              href="https://etherscan.io/address/0x5f96FdF27fB8D38d317BA94f642f6BE39080c71E"
               style={{
                 textDecoration: "none",
                 color: "black",

@@ -190,7 +190,7 @@ function App() {
               ) : (
                 <>
                   {/* <s.TextTitle style={{ textAlign: "center", fontSize: 30 }}>
-                  1 DOODL costs .01 ETH.
+                  1 KR costs .01 ETH.
                 </s.TextTitle>
                 <s.SpacerXSmall />
                 <s.TextDescription style={{ textAlign: "center", fontSize: 30 }}>
@@ -221,7 +221,7 @@ function App() {
                       </StyledButton>
                       <s.SpacerLarge />
                       {/* <s.TextDescription style={{textAlign: "center", fontSize: 30, marginBottom: 0, paddingBottom: 0}}>
-                      <a href="https://google.com">Boo Crew NFT Smart Contract</a>
+                      <a href="https://google.com">KRebels NFT Smart Contract</a>
                     </s.TextDescription> */}
                       {blockchain.errorMsg !== "" ? (
                         <>

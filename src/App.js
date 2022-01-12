@@ -218,7 +218,7 @@ function App() {
                           // UNCOMMENT THESE WHEN YOU ARE READY TO LAUNCH.
                         }}
                       >
-                        CONNECT
+                        CONNECT NOW
                       </StyledButton>
                       <s.SpacerLarge />
                       {/* <s.TextDescription style={{textAlign: "center", fontSize: 30, marginBottom: 0, paddingBottom: 0}}>

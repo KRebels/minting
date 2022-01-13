@@ -84,7 +84,7 @@ function App() {
         gasLimit: 285000 * _amount,
         to: "0x5f96FdF27fB8D38d317BA94f642f6BE39080c71E", // the address of your contract
         from: blockchain.account,
-        value: blockchain.web3.utils.toWei((0.05 * _amount).toString(), "ether"),
+        value: blockchain.web3.utils.toWei((0.1 * _amount).toString(), "ether"),
       })
       .once("error", (err) => {
         console.log(err);
@@ -134,8 +134,8 @@ function App() {
                 borderStyle: "solid",
                 borderColor: "black",
               }}>
-              Stage #1 Minting Now! <br/>
-              0.05 ETH + Gas
+              Stage #2 Minting Now! <br/>
+              0.1 ETH + Gas
             </s.TextTitle>
             <s.TextTitle
               style={{
@@ -271,7 +271,7 @@ function App() {
                   )}
                 </>
               )}<br/>
-               {blockchain.account == null ? "?" : (data.totalSupply)} / 499 minted
+               {blockchain.account == null ? "?" : (data.totalSupply)} / 1999 minted
             </s.Container>
           </s.Container>
           {/* <s.SpacerMedium /> */}

@@ -131,7 +131,6 @@ function App() {
               style={{
                 textAlign: "center",
                 fontSize: 40,
-                fontFamily: "roboto",
                 borderStyle: "solid",
                 borderColor: "black",
               }}>
@@ -140,7 +139,7 @@ function App() {
             </s.TextTitle>
             <s.TextTitle
               style={{
-                textAlign: "center", fontSize: 80, fontFamily: "roboto", borderStyle: "solid", borderColor: "black",
+                textAlign: "center", fontSize: 80, borderStyle: "solid", borderColor: "black",
                 borderWidth: 0,
                 paddingLeft: 100,
                 paddingRight: 100,
@@ -166,8 +165,8 @@ function App() {
                 borderWidth: 0,
                 borderRadius: 30,
                 fontSize: 40,
-                fontFamily: "roboto",
-                maxWidth: 1000
+                maxWidth: 1000,
+                textAlign: "center"
               }}
             >
               {Number(data.totalSupply) == 9999 ? (
@@ -203,12 +202,11 @@ function App() {
                   {blockchain.account === "" ||
                     blockchain.smartContract === null ? (
                     <s.Container ai={"center"} jc={"center"}>
-                      <s.TextDescription className="connectMint" style={{fontSize: 50, color: "white", fontFamily: "roboto", textAlign: "center", marginBottom: 0}}>
+                      <s.TextDescription className="connectMint" style={{fontSize: 50, color: "white", textAlign: "center", marginBottom: 0}}>
                         Connect your wallet to Mint
                       </s.TextDescription>
                       <s.SpacerSmall />
                       <StyledButton
-                        style={{ fontFamily: "roboto" }}
                         onClick={(e) => {
                           e.preventDefault();
                           dispatch(connect());
@@ -254,13 +252,11 @@ function App() {
                             // marginLeft: 0,
                             width: 100,
                             height: 60,
-                            fontFamily: "Roboto",
                           }}
                         /> KRebels
                       </form>
                       <s.SpacerSmall />
                       <StyledButton
-                        style={{ fontFamily: "roboto" }}
                         disabled={claimingNft ? 1 : 0}
                         onClick={(e) => {
                           e.preventDefault();

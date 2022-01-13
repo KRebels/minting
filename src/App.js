@@ -122,7 +122,7 @@ function App() {
         >
           <a href="https://krebels.io/"><StyledImg className="logoShadow" alt={"KRebels Logo"}
             src={newbanner}
-            style={{ width: 70, height: 70, textAlign: "center" }}></StyledImg></a>
+            style={{ width: 100, height: 100, textAlign: "center" }}></StyledImg></a>
         </s.TextTitle>
         <s.SpacerMedium />
         <ResponsiveWrapper flex={1} style={{ padding: 24, paddingTop: 0 }}>
@@ -131,29 +131,26 @@ function App() {
               style={{
                 textAlign: "center",
                 fontSize: 40,
-                fontWeight: "bold",
+                fontFamily: "roboto",
                 borderStyle: "solid",
                 borderColor: "black",
               }}>
               0.05 ETH + Gas <br/>
               Stage 1 Minting Now!
             </s.TextTitle>
-            <StyledImg className="object" alt={"KRebel"} src={i1} style={{
-              paddingTop: 0, borderStyle: "solid", borderColor: "black", borderWidth: 0,
-              borderRadius: 0,
-            }} />
             <s.TextTitle
               style={{
-                textAlign: "center", fontSize: 80, fontWeight: "bold", borderStyle: "solid", borderColor: "black",
+                textAlign: "center", fontSize: 80, fontFamily: "roboto", borderStyle: "solid", borderColor: "black",
                 borderWidth: 0,
                 paddingLeft: 100,
                 paddingRight: 100,
                 borderRadius: 0,
+                paddingTop: 20,
                 marginTop: 0,
                 marginBottom: 0
               }}
             >
-              {blockchain.account == null ? "????" : (data.totalSupply)}/499
+             
             </s.TextTitle>
             {/* <s.SpacerMedium/> */}
             <s.Container
@@ -169,6 +166,7 @@ function App() {
                 borderWidth: 0,
                 borderRadius: 30,
                 fontSize: 40,
+                fontFamily: "roboto",
                 maxWidth: 1000
               }}
             >
@@ -205,12 +203,12 @@ function App() {
                   {blockchain.account === "" ||
                     blockchain.smartContract === null ? (
                     <s.Container ai={"center"} jc={"center"}>
-                      <s.TextDescription className="connectMint" style={{fontSize: 60, textAlign: "center", marginBottom: 0}}>
-                        Connect to Mint
+                      <s.TextDescription className="connectMint" style={{fontSize: 50, color: "white", fontFamily: "roboto", textAlign: "center", marginBottom: 0}}>
+                        Connect your wallet to Mint
                       </s.TextDescription>
                       <s.SpacerSmall />
                       <StyledButton
-                        style={{ fontFamily: "coder" }}
+                        style={{ fontFamily: "roboto" }}
                         onClick={(e) => {
                           e.preventDefault();
                           dispatch(connect());
@@ -218,7 +216,7 @@ function App() {
                           // UNCOMMENT THESE WHEN YOU ARE READY TO LAUNCH.
                         }}
                       >
-                        CONNECT NOW
+                        Connect Wallet
                       </StyledButton>
                       <s.SpacerLarge />
                       {/* <s.TextDescription style={{textAlign: "center", fontSize: 30, marginBottom: 0, paddingBottom: 0}}>
@@ -234,11 +232,11 @@ function App() {
                       ) : null}
                     </s.Container>
                   ) : (
-                    <s.Container ai={"center"} jc={"center"} fd={"row"} style={{ marginTop: 0, paddingTop: 0 }}>
+                    <s.Container ai={"center"} jc={"center"} fd={"row"} style={{ marginTop: 0, paddingTop: 20 }}>
                       <form>
-                        I want <input
+                        Mint <input
                           id="inputBox"
-                          placeholder="#"
+                          placeholder="0"
                           type="number"
                           min="1"
                           max="5"
@@ -246,23 +244,23 @@ function App() {
                             fontSize: 40,
                             textAlign: "center",
                             backgroundColor: "white",
-                            borderWidth: 4,
+                            borderWidth: 3,
                             borderColor: "black",
                             borderStyle: "solid",
-                            borderRadius: 40,
+                            borderRadius: 10,
                             paddingRight: 10,
                             // marginBottom: 20,
                             // paddingLeft: 0,
                             // marginLeft: 0,
                             width: 100,
                             height: 60,
-                            fontFamily: "coder",
+                            fontFamily: "Roboto",
                           }}
                         /> KRebels
                       </form>
                       <s.SpacerSmall />
                       <StyledButton
-                        style={{ fontFamily: "coder" }}
+                        style={{ fontFamily: "roboto" }}
                         disabled={claimingNft ? 1 : 0}
                         onClick={(e) => {
                           e.preventDefault();
@@ -275,11 +273,17 @@ function App() {
                     </s.Container>
                   )}
                 </>
-              )}
+              )}<br/>
+               {blockchain.account == null ? "?" : (data.totalSupply)} / 499 minted
             </s.Container>
           </s.Container>
           {/* <s.SpacerMedium /> */}
         </ResponsiveWrapper>
+        <StyledImg className="object" alt={"KRebel"} src={i1} style={{
+              paddingTop: 0, borderStyle: "solid", borderColor: "black", borderWidth: 0,
+              borderRadius: 0,
+            }} />
+
         <s.SpacerSmall />
         <s.Container jc={"center"} ai={"center"} style={{ width: "70%" }}>
           <s.TextDescription style={{ textAlign: "center", fontSize: 40 }}>

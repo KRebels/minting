@@ -134,8 +134,8 @@ function App() {
                 borderStyle: "solid",
                 borderColor: "black",
               }}>
-              0.05 ETH + Gas <br/>
-              Stage 1 Minting Now!
+              Stage #1 Minting Now! <br/>
+              0.05 ETH + Gas
             </s.TextTitle>
             <s.TextTitle
               style={{
@@ -179,7 +179,7 @@ function App() {
                     Dont worry, you're not missing out! You can still get KRebels on{" "}
                     <a
                       // target={"_blank"}
-                      href={"https://testnets.opensea.io/"}
+                      href={"https://opensea.io/collection/krebels"}
                     >
                       Opensea.io
                     </a>
@@ -253,7 +253,7 @@ function App() {
                             width: 100,
                             height: 60,
                           }}
-                        /> KRebels
+                        /> KRebels NFT
                       </form>
                       <s.SpacerSmall />
                       <StyledButton

@@ -230,14 +230,14 @@ function App() {
                       ) : null}
                     </s.Container>
                   ) : (
-                    <s.Container ai={"center"} jc={"center"} fd={"row"} style={{ marginTop: 0, paddingTop: 20 }}>
+                    <s.Container ai={"center"} jc={"center"} fd={"column"} style={{ marginTop: 0, paddingTop: 20 }}>
                       <form>
                         Mint <input
                           id="inputBox"
                           placeholder="0"
                           type="number"
                           min="1"
-                          max="5"
+                          max="10"
                           style={{
                             fontSize: 40,
                             textAlign: "center",
@@ -266,6 +266,7 @@ function App() {
                       >
                         {claimingNft ? "BUSY" : "MINT"}
                       </StyledButton>
+                      <s.SpacerSmall />
                     </s.Container>
                   )}
                 </>

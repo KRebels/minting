@@ -271,7 +271,7 @@ function App() {
                   )}
                 </>
               )}<br/>
-               {blockchain.account == null ? "?" : (data.totalSupply)} / 1999 minted
+               {blockchain.account == null ? "?" : (data.totalSupply)} minted
             </s.Container>
           </s.Container>
           {/* <s.SpacerMedium /> */}

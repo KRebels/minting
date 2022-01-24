@@ -271,7 +271,7 @@ function App() {
                   )}
                 </>
               )}<br/>
-               {blockchain.account == null ? "?" : (data.totalSupply)} minted
+               {/*blockchain.account == null ? "?" : (data.totalSupply)*/}
             </s.Container>
           </s.Container>
           {/* <s.SpacerMedium /> */}

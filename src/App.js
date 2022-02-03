@@ -135,7 +135,7 @@ function App() {
                 borderColor: "black",
               }}>
               Stage #2 Minting Now! <br/>
-              0.05 ETH + Gas
+              0.05 ETH + Gas Fee
             </s.TextTitle>
             <s.TextTitle
               style={{
